@@ -9,7 +9,10 @@ class BookDetail extends Component {
       )
     } else {
       return (
-        <div>{this.props.activeBook.title}</div>
+        <div>
+          <div>{this.props.activeBook.title}</div>
+          <div>Pages: {this.props.activeBook.pages}</div>
+        </div>
       )
     }
   }

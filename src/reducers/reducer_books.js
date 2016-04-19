@@ -1,8 +1,8 @@
 export default function() {
   return [
-    {title: 'Javascript'},
-    {title: 'Harry Potter'},
-    {title: 'Enders Game'},
-    {title: 'The Divide'}
+    {title: 'Javascript', pages: 201},
+    {title: 'Harry Potter', pages: 345},
+    {title: 'Enders Game', pages: 444},
+    {title: 'The Divide', pages: 201}
   ]
 }
